@@ -39,8 +39,12 @@ st.datetime_input("Enter current time and date : ")
 # taking colour as input 
 st.color_picker("Enter your favourite colour : ")
 
-#taking camera input 
-st.camera_input("Upload your live image : ")
+#taking camera input
+button = st.button("Click Photo") 
+if button:
+    photo=st.camera_input("Upload your live image : ")
+
+
 
 # it is used for chating 
 st.chat_input("Enter your chat : ")
