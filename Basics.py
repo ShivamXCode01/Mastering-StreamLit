@@ -1,3 +1,4 @@
+!pip install streamlit
 import streamlit as st
 
 # it is used to give heading 
